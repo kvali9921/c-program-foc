@@ -1,0 +1,21 @@
+echo "Enter a integer number"
+read n
+a=1
+echo "Printing numbers:"
+while [ $a -le $n ]
+do 
+echo "$a"
+a=`expr $a + 1`
+done
+
+Output
+
+Enter a integer number
+6
+Printing numbers:
+1
+2
+3
+4
+5
+6
